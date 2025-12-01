@@ -1,0 +1,83 @@
+body {
+  min-height: 103vh;
+  background-image: linear-gradient(to bottom, #E066A5, #454EAF);
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 150%;
+  color: white;
+}
+
+    a:visited {
+      color: rgb(255, 255, 255);
+    }
+
+    a:link {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: rgb(255, 255, 255);
+    }
+
+    a:active {
+      color: rgb(0, 0, 0);
+    }
+
+.main {
+    background-color: #2d2d2d; 
+    width: 610px;
+    padding: 1.5em;
+    min-height: 54vh;
+    max-height: 60vh;
+    min-width: 20vw;
+    max-width: 60vw;
+    text-align: center;
+    border-radius: 30px;
+    position: absolute;
+    top: 20%;
+    border: 7px solid;
+    border-color: #f372b5; 
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+  0%  {top: 17%;}
+  50% {top: 19%;}
+  100% {top: 17%;}
+}
+
+.email {
+    background-color: #E066A5; 
+    width: 400px;
+    padding: 1.5em;
+    min-height: 0vh;
+    max-height: 0vh;
+    min-width: 20vw;
+    max-width: 38vw;
+    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 82%;
+    left: 15.5%;
+    border: 0px solid;
+    box-shadow: 8px 8px rgb(0, 0, 0);
+    transition: background-color .2s, transform .2s;
+    cursor: pointer;
+}
+
+.email:hover{
+    background-color: #f372b5;
+    transform: scale(105%);
+    box-shadow: 9px 9px rgb(0, 0, 0);
+}
+
+img {
+  border-radius: 100%;
+}
